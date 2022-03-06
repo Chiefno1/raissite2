@@ -111,8 +111,8 @@ title = "Get the best for your company"
 description = "Contact us to know how we can help you"
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://raissite2.netlify.app/contact/"
+label = "Visit Here for our CoI"
+link = "https://reasonai.blogspot.com/2022/02/reason-advisory-industrial-solutions.html"
 
 
 ############################## Social Site ##########################
@@ -124,7 +124,7 @@ icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
 link = "#"
 [[params.social]]
 icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/Chiefno1"
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/in/chiefno1/"
