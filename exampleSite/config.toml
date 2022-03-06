@@ -80,7 +80,7 @@ google_tag_manager = "Chiefno1" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # copyright
-copyright = "&copy; 2022 [RAIS Private Limited](https://raissite2.netlify.app) All Rights Reserved"
+copyright = "&copy; 2022 [RAIS Private Limited](https://raissite2.netlify.app) | All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -99,7 +99,7 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Chief No 1 here. <br> I help people make the  worlds best processes"
+title = "Hi, I'm Chief No 1 here. <br> I help people make the worlds best processes"
 image = "images/banner/illustration.svg"
 
 
