@@ -1,9 +1,13 @@
 ---
 title: "Contact Us"
 draft: false
-description : "this is meta description"
+description : "Contact Page of RAIS Pvt. Ltd."
 image: "images/contact.svg"
 layout : contact
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+For further details and business opportunities - Please call / SMS on +91-9833953817
+
+For business enquiries reach us at : Chief@ReasonAIsolutions.com
+
+For legal / compliance matters mail us at : ReasonAIsolutions.pvtltd@gmail.com 
