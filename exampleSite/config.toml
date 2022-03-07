@@ -78,7 +78,7 @@ description = "Business website of Reason Advisory & Industrial Solutions Pvt. L
 # google tag manager
 google_tag_manager = "Chiefno1" # your id
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+contact_form_action = "https://formspree.io/f/xpzbrkza" # contact form works with : https://formspree.io
 # copyright
 copyright = "&copy; 2022 [RAIS Private Limited](https://raissite2.netlify.app) | All Rights Reserved"
 
