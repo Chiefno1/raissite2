@@ -99,7 +99,7 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Chief No 1 here. <br> I help people make the worlds best processes"
+title = "Hi, I'm Chief No 1 here. <br> I help people make the world's best processes"
 image = "images/banner/illustration.svg"
 
 
@@ -111,17 +111,17 @@ title = "Get the best for your company"
 description = "Contact us to know how we can help you"
 [params.cta.button]
 enable = true
-label = "Visit Here for our CoI"
+label = "Visit Here for our Cerfiticate of Inforporation"
 link = "https://reasonai.blogspot.com/2022/02/reason-advisory-industrial-solutions.html"
 
 
 ############################## Social Site ##########################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+#link = "#"
+#[[params.social]]
+#icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+#link = "#"
 [[params.social]]
 icon = "ti-github" # themify icon pack https://themify.me/themify-icons
 link = "https://github.com/Chiefno1"
