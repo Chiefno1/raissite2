@@ -1,0 +1,13 @@
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+This is the Google Pub/Sub fake.
+Implementation may be incomplete or differ from the real system.
+Feb 25, 2022 3:53:25 PM com.google.cloud.pubsub.testing.v1.Main main
+INFO: IAM integration is disabled. IAM policy methods and ACL checks are not supported
+Feb 25, 2022 3:53:26 PM io.gapi.emulators.netty.NettyUtil applyJava7LongHostnameWorkaround
+INFO: Applied Java 7 long hostname workaround.
+Feb 25, 2022 3:53:26 PM com.google.cloud.pubsub.testing.v1.Main main
+INFO: Server started, listening on 8085
+Feb 25, 2022 3:53:26 PM io.gapi.emulators.grpc.GrpcServer$3 operationComplete
+INFO: Adding handler(s) to newly registered Channel.
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down
