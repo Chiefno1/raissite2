@@ -1,7 +1,7 @@
 +++
-title = "My awesome blog post"
-image = "/images/post/post-1.jpg"
-author = "Mark Dinn"
+title = "Zero-in: Top-Down approach to Business Consulting"
+image = "/images/post/5543215.jpg"
+author = "John Doe 1"
 date = 2019-11-07T05:00:00Z
 description = "This is meta description"
 categories = ["Meta Data"]
