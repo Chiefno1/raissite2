@@ -9,6 +9,7 @@ type = "post"
 
 +++
 **The Macro way the world is organized and functioning**
+
 The key thing to note is that every economy i.e. nation has multiple ministries for each of these subdivisions. In fact, all of them function together within a structure defined nationally, and further refined at state and local levels
 
 |Mega Flow Factor|Create|Move|In Flow|Out Flow|Quantity Stock|Quality Stock|
