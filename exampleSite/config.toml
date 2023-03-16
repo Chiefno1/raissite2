@@ -99,7 +99,7 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm Chief No 1 here. <br> I help people make the world's best processes"
+title = "Consulting and Operations services for <br> F&A, HR, Purchase, Sales and Support "
 image = "images/banner/illustration.svg"
 
 
