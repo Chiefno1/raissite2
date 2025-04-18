@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments - RAIS International Students</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- PayPal SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=BAA_BKq_1_37balLRQUJweaYTKZDdmITtckcV3_Lx568a7bQ4TO0SYMfQQjVIyHHoOa1ZbiJEFv63sWsak&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">RAIS</span> International Students</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="alumni.html">Alumni</a></li>
+                    <li><a href="scholarships.html">Scholarships</a></li>
+                    <li class="current"><a href="payments.html">Payments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Secure Payments</h1>
+            <p>Make secure payments for RAIS services and programs using PayPal</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Payment Options</h1>
+                <p>Select from the available payment options below:</p>
+                
+                <div class="payment-option">
+                    <h3>Standard Payment</h3>
+                    <p>Use the button below to make your payment securely through PayPal:</p>
+                    <div id="paypal-container-4XGDF7V5R4CPL"></div>
+                    <script>
+                        paypal.HostedButtons({
+                            hostedButtonId: "4XGDF7V5R4CPL",
+                        }).render("#paypal-container-4XGDF7V5R4CPL")
+                    </script>
+                </div>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Payment Information</h3>
+                    <p>All transactions are secure and processed through PayPal's encrypted payment system. You do not need a PayPal account to make a payment - you can use your credit or debit card.</p>
+                    <p>If you have any questions about payments, please contact us.</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>RAIS International Students, Copyright &copy; 2023</p>
+    </footer>
+</body>
+</html>
