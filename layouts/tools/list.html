@@ -11,8 +11,8 @@
           {{ range $index, $elemen:= .Site.Data.tools.tools }}
           <a class="nav-link {{ if eq $index 0}} active {{ end }}" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
           {{ end }}
-          <!-- Add Test Payment tab -->
-          <a class="nav-link" data-toggle="pill" href="#test-payment" role="tab">Test Payment</a>
+          <!-- Rename tab to "Payments" -->
+          <a class="nav-link" data-toggle="pill" href="#payments" role="tab">Payments</a>
         </div>
       </div>
       <div class="col-9">
@@ -35,12 +35,32 @@
           </div>
           {{ end }}
           
-          <!-- Add Test Payment tab content -->
-          <div class="tab-pane fade" id="test-payment" role="tabpanel">
+          <!-- Renamed tab content to "payments" -->
+          <div class="tab-pane fade" id="payments" role="tabpanel">
             <div class="row">
               <div class="col-12 mb-5">
                 <h2>Payment Options</h2>
                 <p>Select from one of our service payment options below:</p>
+              </div>
+              
+              <!-- Test Payment Option (Added) -->
+              <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow">
+                  <div class="card-body">
+                    <h4 class="h5 mb-4">Test Payment</h4>
+                    <p>Use the button below to make a test payment:</p>
+                    
+                    <!-- PayPal Button Container -->
+                    <div id="paypal-container-4XGDF7V5R4CPL"></div>
+                    
+                    <!-- PayPal Button Script -->
+                    <script>
+                      paypal.HostedButtons({
+                        hostedButtonId: "4XGDF7V5R4CPL",
+                      }).render("#paypal-container-4XGDF7V5R4CPL")
+                    </script>
+                  </div>
+                </div>
               </div>
               
               <!-- Document Publication Payment Option -->
