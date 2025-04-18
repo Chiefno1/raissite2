@@ -44,10 +44,10 @@ URL = "contact/"
 name = "Contact"
 weight = 1
 
-#[[menu.main]]
-#URL = "tools/"
-#name = "tools"
-#weight = 2
+[[menu.main]]
+URL = "payments/"
+name = "Payments"
+weight = 2
 
 #[[menu.main]]
 #URL = "https://gethugothemes.com/products/northendlab/"
