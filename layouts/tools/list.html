@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+<!-- Add PayPal SDK to the head section -->
+<script src="https://www.paypal.com/sdk/js?client-id=BAA_BKq_1_37balLRQUJweaYTKZDdmITtckcV3_Lx568a7bQ4TO0SYMfQQjVIyHHoOa1ZbiJEFv63sWsak&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+
 <section class="section">
   <div class="container">
     <div class="row">
@@ -8,6 +11,8 @@
           {{ range $index, $elemen:= .Site.Data.tools.tools }}
           <a class="nav-link {{ if eq $index 0}} active {{ end }}" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
           {{ end }}
+          <!-- Add Payments tab -->
+          <a class="nav-link" data-toggle="pill" href="#payments" role="tab">Payments</a>
         </div>
       </div>
       <div class="col-9">
@@ -29,6 +34,34 @@
             </div>
           </div>
           {{ end }}
+          
+          <!-- Add Payments tab content -->
+          <div class="tab-pane fade" id="payments" role="tabpanel">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <div class="card border-0 shadow">
+                  <div class="card-body">
+                    <h4 class="h5 mb-4">Make a Payment</h4>
+                    <p>Use the button below to make your payment securely through PayPal:</p>
+                    
+                    <!-- PayPal Button Container -->
+                    <div id="paypal-container-4XGDF7V5R4CPL"></div>
+                    
+                    <!-- PayPal Button Script -->
+                    <script>
+                      paypal.HostedButtons({
+                        hostedButtonId: "4XGDF7V5R4CPL",
+                      }).render("#paypal-container-4XGDF7V5R4CPL")
+                    </script>
+                    
+                    <div class="mt-4">
+                      <p><small>All transactions are secure and processed through PayPal's encrypted payment system. You do not need a PayPal account to make a payment - you can use your credit or debit card.</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
