@@ -11,8 +11,8 @@
           {{ range $index, $elemen:= .Site.Data.tools.tools }}
           <a class="nav-link {{ if eq $index 0}} active {{ end }}" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
           {{ end }}
-          <!-- Add Payments tab -->
-          <a class="nav-link" data-toggle="pill" href="#payments" role="tab">Payments</a>
+          <!-- Add Test Payment tab -->
+          <a class="nav-link" data-toggle="pill" href="#test-payment" role="tab">Test Payment</a>
         </div>
       </div>
       <div class="col-9">
@@ -35,29 +35,77 @@
           </div>
           {{ end }}
           
-          <!-- Add Payments tab content -->
-          <div class="tab-pane fade" id="payments" role="tabpanel">
+          <!-- Add Test Payment tab content -->
+          <div class="tab-pane fade" id="test-payment" role="tabpanel">
             <div class="row">
-              <div class="col-12 mb-4">
+              <div class="col-12 mb-5">
+                <h2>Payment Options</h2>
+                <p>Select from one of our service payment options below:</p>
+              </div>
+              
+              <!-- Document Publication Payment Option -->
+              <div class="col-md-12 mb-4">
                 <div class="card border-0 shadow">
                   <div class="card-body">
-                    <h4 class="h5 mb-4">Make a Payment</h4>
-                    <p>Use the button below to make your payment securely through PayPal:</p>
+                    <h4 class="h5 mb-4">Document Publication</h4>
+                    <p>Use the button below to pay for document publication services:</p>
                     
                     <!-- PayPal Button Container -->
-                    <div id="paypal-container-4XGDF7V5R4CPL"></div>
+                    <div id="paypal-container-K3D59X34R4S4E"></div>
                     
                     <!-- PayPal Button Script -->
                     <script>
                       paypal.HostedButtons({
-                        hostedButtonId: "4XGDF7V5R4CPL",
-                      }).render("#paypal-container-4XGDF7V5R4CPL")
+                        hostedButtonId: "K3D59X34R4S4E",
+                      }).render("#paypal-container-K3D59X34R4S4E")
                     </script>
-                    
-                    <div class="mt-4">
-                      <p><small>All transactions are secure and processed through PayPal's encrypted payment system. You do not need a PayPal account to make a payment - you can use your credit or debit card.</small></p>
-                    </div>
                   </div>
+                </div>
+              </div>
+              
+              <!-- Adhoc Advisory Payment Option -->
+              <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow">
+                  <div class="card-body">
+                    <h4 class="h5 mb-4">Adhoc Advisory</h4>
+                    <p>Use the button below to pay for adhoc advisory services:</p>
+                    
+                    <!-- PayPal Button Container -->
+                    <div id="paypal-container-H5ACUAGRKBRCE"></div>
+                    
+                    <!-- PayPal Button Script -->
+                    <script>
+                      paypal.HostedButtons({
+                        hostedButtonId: "H5ACUAGRKBRCE",
+                      }).render("#paypal-container-H5ACUAGRKBRCE")
+                    </script>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- POC demo Payment Option -->
+              <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow">
+                  <div class="card-body">
+                    <h4 class="h5 mb-4">POC demo</h4>
+                    <p>Use the button below to pay for POC demo services:</p>
+                    
+                    <!-- PayPal Button Container -->
+                    <div id="paypal-container-R9MYZ4HWQNMKJ"></div>
+                    
+                    <!-- PayPal Button Script -->
+                    <script>
+                      paypal.HostedButtons({
+                        hostedButtonId: "R9MYZ4HWQNMKJ",
+                      }).render("#paypal-container-R9MYZ4HWQNMKJ")
+                    </script>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 mt-3">
+                <div class="alert alert-info">
+                  <p class="mb-0"><small>All transactions are secure and processed through PayPal's encrypted payment system. You do not need a PayPal account to make a payment - you can use your credit or debit card.</small></p>
                 </div>
               </div>
             </div>
