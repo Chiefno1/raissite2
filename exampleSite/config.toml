@@ -45,7 +45,7 @@ name = "Contact"
 weight = 1
 
 [[menu.main]]
-URL = "tools/"
+URL = "tools/payments.html"
 name = "Payments"
 weight = 2
 
