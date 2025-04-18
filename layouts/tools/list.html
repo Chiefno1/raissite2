@@ -9,16 +9,16 @@
       <div class="col-3">
         <div class="nav nav-tab flex-column" role="tablist" aria-orientation="vertical">
           {{ range $index, $elemen:= .Site.Data.tools.tools }}
-          <a class="nav-link {{ if eq $index 0}} active {{ end }}" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
+          <a class="nav-link" data-toggle="pill" href="#{{.title | urlize}}" role="tab">{{ .title }}</a>
           {{ end }}
-          <!-- Rename tab to "Payments" -->
-          <a class="nav-link" data-toggle="pill" href="#payments" role="tab">Payments</a>
+          <!-- Make Payments tab active by default -->
+          <a class="nav-link active" data-toggle="pill" href="#payments" role="tab">Payments</a>
         </div>
       </div>
       <div class="col-9">
         <div class="tab-content">
           {{ range $index, $elemen:= .Site.Data.tools.tools }}
-          <div class="tab-pane fade {{ if eq $index 0}} show active {{ end }}" id="{{.title | urlize}}" role="tabpanel">
+          <div class="tab-pane fade" id="{{.title | urlize}}" role="tabpanel">
             <div class="row">
               {{ range .tool}}
               <div class="col-md-6 mb-4">
@@ -35,15 +35,15 @@
           </div>
           {{ end }}
           
-          <!-- Renamed tab content to "payments" -->
-          <div class="tab-pane fade" id="payments" role="tabpanel">
+          <!-- Make Payments tab content active by default -->
+          <div class="tab-pane fade show active" id="payments" role="tabpanel">
             <div class="row">
               <div class="col-12 mb-5">
                 <h2>Payment Options</h2>
                 <p>Select from one of our service payment options below:</p>
               </div>
               
-              <!-- Test Payment Option (Added) -->
+              <!-- Test Payment Option -->
               <div class="col-md-12 mb-4">
                 <div class="card border-0 shadow">
                   <div class="card-body">
