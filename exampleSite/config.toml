@@ -40,14 +40,14 @@ link = "plugins/search/search.js"
 
 # main menu
 [[menu.main]]
-URL = "contact/"
-name = "Contact"
-weight = 1
+#URL = "contact/"
+#name = "Contact"
+#weight = 1
 
 [[menu.main]]
-URL = "tools/"
-name = "Payments"
-weight = 2
+#URL = "tools/"
+#name = "Payments"
+#weight = 2
 
 #[[menu.main]]
 #URL = "https://gethugothemes.com/products/northendlab/"
@@ -56,9 +56,9 @@ weight = 2
 
 # footer menu
 [[menu.footer]]
-URL = "contact/"
-name = "Contact"
-weight = 1
+#URL = "contact/"
+#name = "Contact"
+#weight = 1
 
 #[[menu.footer]]
 #URL = "tools/"
@@ -99,7 +99,8 @@ expire_days = 2
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Consulting and Operations services for <br> F&A, HR, Purchase, Sales and Support "
+#title = "Consulting and Operations services for <br> F&A, HR, Purchase, Sales and Support "
+title = "Under Maintenance/Renovation"
 image = "images/banner/illustration.svg"
 
 
@@ -111,8 +112,8 @@ title = "Get the best for your company"
 description = "Contact us to know how we can help you"
 [params.cta.button]
 enable = true
-label = "Visit Here for our Cerfiticate of Inforporation"
-link = "https://reasonai.blogspot.com/2022/02/reason-advisory-industrial-solutions.html"
+#label = "Visit Here for our Cerfiticate of Inforporation"
+#link = "https://reasonai.blogspot.com/2022/02/reason-advisory-industrial-solutions.html"
 
 
 ############################## Social Site ##########################
